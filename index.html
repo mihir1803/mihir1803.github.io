@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Profile</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="css\mihir.jpg" alt="Logo" class="rounded-circle" width="50" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="css/Mihir REsume.pdf">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="Aboutme.html">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="contect.html">Contact</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Mihir M. Patel</h1>
+        <p class="lead">Data Analyst | Python Development | Problem Solver</p>
+        <a href="contect.html" class="btn btn-primary">Get in Touch</a>
+    </header>
+    <!-- Main Content -->
+    <main class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center">
+                <img src="css\mihir.jpg" alt="Profile Photo" class="img-fluid rounded-circle profile-photo">
+            </div>
+            <div class="col-md-8">
+                <h2>About Me</h2>
+                <p>Hello! I am Mihir Patel, a Data Analyst  with a passion for transforming data into actionable insights. Possesses strong technical skills in Power BI, MySQL, Python, Django, HTML/CSS, and JavaScript. Demonstrated experience in leading data analysis projects (SIDA) to address market challenges, develop strategic solutions, and improve business performance.</p>
+            </div>
+        </div>
+        <section id="resume" class="my-5">
+            <h2>Resume</h2>
+            <p>Download my resume <a href="css/Mihir REsume.pdf" target="_blank">here</a>.</p>
+        </section>
+        <section id="projects" class="my-5">
+            <h2>Projects</h2>
+            <p>Here are some of my projects:</p>
+            <div class="row">
+                <!-- Example Project -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <!-- <img src="path/to/project-image.jpg" class="card-img-top" alt="Project Image"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">ASAS (Automated Student Attendance System)</h5>
+                            <p class="card-text">The Attendance System is .....</p>
+                            <button class="btn btn-primary view-project-btn" data-project="Project 1">View
+                                Project</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <!-- <img src="path/to/project-image.jpg" class="card-img-top" alt="Project Image"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">SIDA (Sales Insights Data Analyst)</h5>
+                            <p class="card-text">To help a struggling computer hardware business ....</p>
+                            <button class="btn btn-primary view-project-btn" data-project="Project 2">View
+                                Project</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <!-- <img src="path/to/project-image.jpg" class="card-img-top" alt="Project Image"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">RealEstate Insight</h5>
+                            <p class="card-text">Attained an interactive dashboard for real estate price....</p>
+                            <button class="btn btn-primary view-project-btn" data-project="Project 3">View
+                                Project</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <!-- <img src="path/to/project-image.jpg" class="card-img-top" alt="Project Image"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Job-Market Analysis</h5>
+                            <p class="card-text">The analysis was carried out in power BI and keggle....</p>
+                            <button class="btn btn-primary view-project-btn" data-project="Project 4">View
+                                Project</button>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <!-- Add more projects similarly -->
+            </div>
+            <!-- Modal for Project -->
+            <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="projectModalLabel">Project Details</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Project details will be shown here.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="my-5">
+            <h2>Skills</h2>
+            <div class="container">
+                <div class="row">
+                    <ul class="list-group col">
+                        <li >Python</li>
+                        <li >PowerBi</li>
+                        <li >MySQL</li>
+                        <li >MS Office Excel</li>
+                    </ul>
+                    <ul class="list-group col">
+                        <li >Data Visualization</li>
+                        <li >Data Mining</li>
+                        <li >Pandas</li>
+                        <li >Numpy</li>
+                      
+                    </ul>
+                </div>
+            </div>
+            
+        </section>
+        <section id="Certificates" class="my-5">
+            <h2>Certificates</h2>
+            <p>Python For Data Science (IBM) <a href="css/Coursera 6F8FJXFUKCRT.pdf" target="_blank">here</a>.</p>
+            <p>Data Analytics (Bootcamp) <a href="css/cer1.pdf" target="_blank">here</a>.</p>
+        </section>
+
+    </main>
+
+
+ 
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="css/scripts.js"></script>
+    <script>
+        const projects = {
+            "Project 1": {
+                title: "ASAS (Automated Student Attendance System)",
+                description: "The Attendance System is a time-saving way to take attendance of students. Which works with real time face recognition using CCTV cameras. Our system is based on a very well-known computer vision field (using opencv) and with some machine learning & deep learning (using pytorch and tensorflow) stuff we give it an accuracy so it will take attendance very accurately.",
+                                
+                // Add more properties like image URL for each project
+                
+            },
+            "Project 2": {
+                title: "SIDA (Sales Insights Data Analyst)",
+                description: "To help a struggling computer hardware business, analyze sales data and customer behavior using Power BI and MySQL. Connect to the MySQL database containing sales and customer info. Cleanse and prepare the data in Power Query Editor. Use Power BI's visualizations to uncover trends and customer insights relevant to market challenges.",
+                // ...
+            },
+            "Project 3": {
+                title: "RealEstate Insight: Interactive Property Price Dashboard",
+                description: "Attained an interactive dashboard for real estate price analysis, synthesizing diverse data sources for real-time insights and trends. Leveraged advanced visualizations to facilitate quick, data-driven decisions. Reached 90% accuracy in price predictions through sophisticated data analysis and machine learning, reducing data processing time by 50% and operational efficiency",
+                // ...
+            },
+            "Project 4": {
+                title: "Job-Market Analysis",
+                description: "The analysis was carried out in power BI and keggle for dataset. From this analysis, we discover that the role of an operational manager in the AI industry is the highest average paying job with an average salary of 96.94k usd.   Leveraged advanced visualizations to facilitate quick, data-driven decisions. Reached 90% accuracy in price predictions through sophisticated data analysis and machine learning, reducing data processing time by 50% and operational efficiency",
+                // ...
+            },
+        };
+
+        document.querySelectorAll('.view-project-btn').forEach(button => {
+            button.addEventListener('click', function () {
+                const projectTitle = this.getAttribute('data-project');
+                const modalTitle = document.getElementById('projectModalLabel');
+                const modalBody = document.querySelector('#projectModal .modal-body');
+
+                const projectDetails = projects[projectTitle];  // Access details using project title
+
+                if (projectDetails) {
+                    modalTitle.textContent = projectDetails.title;
+                    modalBody.innerHTML = projectDetails.description;
+                    
+                } else {
+                    // Handle potential missing project data (optional)
+                    console.error("Project details not found for:", projectTitle);
+                }
+
+                const modal = new bootstrap.Modal(document.getElementById('projectModal'));
+                modal.show();
+            });
+        });
+
+    </script>
+</body>
+
+</html>
