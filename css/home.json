@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Alice",
+        "age": 30,
+        "city": "New York",
+        "salary": 70000,
+        "department": "HR",
+        "experience": 5,
+        "status": "Active"
+    },
+    {
+        "id": 2,
+        "name": "Bob",
+        "age": 25,
+        "city": "Los Angeles",
+        "salary": 80000,
+        "department": "Engineering",
+        "experience": 3,
+        "status": "Active"
+    },
+    {
+        "id": 3,
+        "name": "Charlie",
+        "age": 35,
+        "city": "Chicago",
+        "salary": 90000,
+        "department": "Finance",
+        "experience": 10,
+        "status": "Inactive"
+    },
+    {
+        "id": 4,
+        "name": "David",
+        "age": 28,
+        "city": "San Francisco",
+        "salary": 85000,
+        "department": "Engineering",
+        "experience": 4,
+        "status": "Active"
+    },
+    {
+        "id": 5,
+        "name": "Eve",
+        "age": 32,
+        "city": "New York",
+        "salary": 75000,
+        "department": "HR",
+        "experience": 6,
+        "status": "Inactive"
+    },
+    {
+        "id": 6,
+        "name": "Frank",
+        "age": 29,
+        "city": "Los Angeles",
+        "salary": 95000,
+        "department": "Engineering",
+        "experience": 7,
+        "status": "Active"
+    },
+    {
+        "id": 7,
+        "name": "Grace",
+        "age": 27,
+        "city": "Chicago",
+        "salary": 72000,
+        "department": "Finance",
+        "experience": 5,
+        "status": "Inactive"
+    },
+    {
+        "id": 8,
+        "name": "Hank",
+        "age": 31,
+        "city": "San Francisco",
+        "salary": 88000,
+        "department": "Engineering",
+        "experience": 8,
+        "status": "Active"
+    },
+    {
+        "id": 9,
+        "name": "Ivy",
+        "age": 26,
+        "city": "New York",
+        "salary": 78000,
+        "department": "HR",
+        "experience": 4,
+        "status": "Active"
+    },
+    {
+        "id": 10,
+        "name": "Jack",
+        "age": 34,
+        "city": "Los Angeles",
+        "salary": 92000,
+        "department": "Finance",
+        "experience": 9,
+        "status": "Inactive"
+    }
+]
